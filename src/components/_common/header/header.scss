@@ -1,0 +1,35 @@
+.header{
+    z-index: 2;
+    width: 100%;
+    position: relative;
+    background-color: #0e0d0e;
+    .header-container{
+        margin: 0 50px;
+        padding: 12px 0;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.left{
+    display: flex;
+    .logo-box{
+        margin-right: 15px;
+        font-size: 22px;
+    }
+    .search-box{
+        margin-right: 15px;
+        .search-input{
+            width: 600px;
+            max-width: 600px;
+        }
+    }
+}
+
+.right{
+    .account-box{
+        
+    }
+}
+
