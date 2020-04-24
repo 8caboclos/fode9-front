@@ -1,0 +1,37 @@
+.video-card{
+    padding: 0 5px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+    .video-card-title{
+        font-size: 1.1em;
+        font-weight: 400;
+        cursor: pointer;
+        transition: text-decoration 0.2s;
+    }
+    .video-card-title:hover{
+        text-decoration: underline;
+    }
+    .video-card-views{
+        font-size: 1em;
+        font-weight: 400;
+        color: #a9a9a9;
+    }
+    .image-box{
+        position: relative;
+        border: 0px solid #820e0e;
+        cursor: pointer;
+        .video-time{
+            position: absolute;
+            left: 2%;
+            bottom: 4%;
+            background-color: #252427;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+    }
+    .image-box:hover{
+        //border: 1px solid #820e0e;
+    }
+}

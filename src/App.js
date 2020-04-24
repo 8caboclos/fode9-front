@@ -6,7 +6,7 @@ import Footer from './components/_common/footer';
 
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <Header />
       <Routes />
       <Footer />

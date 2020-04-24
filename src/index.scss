@@ -22,6 +22,7 @@ body {
   color: #fff;
   background: $main;
   -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
 input, textarea, button{
@@ -35,18 +36,18 @@ input, textarea, button{
 
 button, input[type=submit]{
   color: #FFF;
-  background-color: $side;
-  border: 1px solid $side;
+  background-color: $main;
+  border: 1px solid $mainLight;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 button:hover, input[type=submit]:hover{
-  background-color: $sideDark;
+  background-color: $mainDark;
 }
 
 button:active, input[type=submit]:active{
-  background-color: $sideLight;
+  background-color: $mainLight;
 }
 
 ::placeholder {
@@ -58,4 +59,8 @@ button:active, input[type=submit]:active{
   position: relative;
   z-index: 1;
   width: 100%;
+}
+
+ul{
+  list-style-type: none;
 }
