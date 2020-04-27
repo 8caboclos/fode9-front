@@ -10,11 +10,11 @@ export default function Home(){
         <div className="main-container">
             <div className="videos-container">
                 <h2 className="list-title">Mais assistidos do dia</h2>
-                <VideoGridList videos={5} />
+                <VideoGridList key={0} videos={5} />
             </div>
             <div className="videos-container">
-            <h2 className="list-title">Vídeos novos</h2>
-                <VideoGridList videos={10} />
+                <h2 className="list-title">Vídeos novos</h2>
+                <VideoGridList key={1} videos={10} />
                 <Paginator />
             </div>
         </div>

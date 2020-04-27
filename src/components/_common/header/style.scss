@@ -9,27 +9,29 @@
         height: 100%;
         display: flex;
         justify-content: space-between;
-    }
-}
-
-.left{
-    display: flex;
-    .logo-box{
-        margin-right: 15px;
-        font-size: 22px;
-    }
-    .search-box{
-        margin-right: 15px;
-        .search-input{
-            width: 600px;
-            max-width: 600px;
+        .left{
+            display: flex;
+            .logo-box{
+                margin: auto;
+                margin-right: 15px;
+                font-size: 22px;
+            }
+            .search-box{
+                margin: auto;
+                margin-right: 15px;
+                .search-input{
+                    margin: auto;
+                    width: 600px;
+                    max-width: 600px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            .account-box{
+                margin: auto;
+            }
         }
     }
 }
-
-.right{
-    .account-box{
-        
-    }
-}
-
